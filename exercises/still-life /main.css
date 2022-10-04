@@ -1,0 +1,31 @@
+body{
+  background-color: blue inherit;
+}
+
+div{margin-left: ;
+margin-right: }
+
+.rectangle {
+  width: 200px;
+  height: 100px;
+  background: red;
+}
+
+.oval {
+      width: 200px;
+      height: 100px;
+      background: red;
+      border-radius: 100px / 50px;
+    }
+.square {
+  width: 100px;
+  height: 100px;
+  background: red;
+}
+
+.oval {
+      width: 200px;
+      height: 100px;
+      background: red;
+      border-radius: 100px / 50px;
+    }

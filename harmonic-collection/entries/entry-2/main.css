@@ -1,0 +1,168 @@
+body {
+    text-align: left;
+    font-size: 20px;
+    line-height: 1.4;
+    background-color: #ffffff;
+font-family: "Libre Franklin", sans-serif;
+
+  background-image: url("file:///Users/laraarditi/Desktop/rn.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+
+.container1 {
+position: static;
+  text-align: center;
+  color: black;
+  opacity: 50%;
+}
+
+.centered1 {
+position: static;
+text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container2 {
+position: static;
+  text-align: center;
+  color: black;
+  opacity: 50%;
+}
+
+
+.centered2 {
+position: static;
+text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+ .content p {
+  max-width: 1000px;
+  padding: 100px 30px;
+  margin: auto;
+  font-weight: 300;
+}
+
+.long-way
+    .long-way {
+      font-style: italic;
+      transition: all 2s ease-in-out;
+    }
+
+    .long-way:hover {
+      cursor: pointer;
+      font-size: 2em;
+    }
+
+
+    .gradient-fill {
+      background: -webkit-linear-gradient(#3da808, #75ff20);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      transition: all 0.8s ease;
+    }
+
+    .gradient-fill:hover {
+      background: -webkit-radial-gradient(#000000);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      cursor: pointer;
+    }
+
+    .gradient-fill:hover {
+      background: -webkit-radial-gradient(#A800A5, #F516F0, #00ed8a);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      cursor: pointer;
+    }
+
+
+    .faerie {
+      background-color: #3DBD27;
+      -webkit-animation: none;
+      -moz-animation: none;
+      animation: none;
+    }
+
+    .faerie:hover {
+      cursor: pointer;
+      background: linear-gradient(270deg, #ff00f5, #ffd736, #f2a4ff, #6bf51d, #06e854);
+      background-size: 1000% 1000%;
+
+      -webkit-animation: slideBackground 2s ease infinite;
+      -moz-animation: slideBackground 2s ease infinite;
+      animation: slideBackground 2s ease infinite;
+    }
+    @-webkit-keyframes slideBackground {
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+    }
+
+
+    .fillrect {
+      border: 1px solid #60F516;
+      padding: 0 10px;
+      transition: all 0.5s ease;
+    }
+
+    .fillrect:hover {
+      background-color: #3fff00;
+      cursor: pointer;
+    }
+
+
+    .fakelink {
+      border-bottom: 2px solid;
+    }
+
+    .fakelink:hover {
+      border-bottom: 2px dotted;
+      cursor: pointer;
+    }
+
+
+
+
+    .alternate:nth-child(odd) {
+      color: white;
+      transition: all 2s linear;
+    }
+
+    .alternate:nth-child(odd):hover {
+      background-color: #3DBD27;
+      cursor: pointer;
+    }
+
+
+    .funky-cursor {
+      color: #60F516;
+    }
+
+    .funky-cursor {
+      cursor: url("file:///Users/laraarditi/Desktop/r.png"), auto;
+    }
+
+
+    .writing {
+      font-style: italic;
+      background-color: #3DBD27;
+      text-decoration: none;
+      color: #000;
+      position: relative;
+    }
+
+    .writing:hover:after {
+      content: url("file:///Users/laraarditi/Desktop/park.jpg");
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
