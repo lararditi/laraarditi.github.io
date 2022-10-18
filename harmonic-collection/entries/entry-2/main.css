@@ -14,17 +14,25 @@ font-family: "Libre Franklin", sans-serif;
 
 .container1 {
 position: static;
-  text-align: center;
+  left: 1000 px
   color: black;
   opacity: 50%;
 }
 
 .centered1 {
-position: static;
-text-align: center;
-  top: 50%;
+  position: absolute;
+  margin: 20px;
+  top: 500px;
+  left: 1000px
   left: 50%;
-  transform: translate(-50%, -50%);
+}
+
+.centered2 {
+  position: absolute;
+  margin: 120px;
+  top: 1300px;
+  left: 1000px
+  left: 50%;
 }
 
 .container2 {
@@ -35,20 +43,9 @@ position: static;
 }
 
 
-.centered2 {
-position: static;
-text-align: center;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
 
- .content p {
-  max-width: 1000px;
-  padding: 100px 30px;
-  margin: auto;
-  font-weight: 300;
-}
+
+
 
 .long-way
     .long-way {

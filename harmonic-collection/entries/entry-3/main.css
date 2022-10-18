@@ -1,0 +1,128 @@
+body{
+background-color: #ffffff;
+  background-image: url("file:///Users/laraarditi/Desktop/nyc-map-entry-3.png");
+  background-size:100%;
+  }
+
+.text{
+  position: absolute;
+  font-size: 30px;
+  font style: bold;
+  top: 40 px;
+  left: 10 px;
+  font-family: "Libre Franklin", sans-serif;
+  color: green;
+}
+
+    .park1{
+      position: absolute;
+      left: 340px;
+      top: 9px;
+    width: 36.71px;
+    height:197px;
+    transform: rotate(8.07deg);
+    }
+
+.park1:hover {
+      background-color: green;
+    }
+
+
+    .park2{
+      position: absolute;
+      left: 295px;
+      top: 456px;
+    width: 86.15px;
+    height: 28.09px;
+    transform: rotate(14.18deg);
+    }
+    .park2:hover {
+          background-color: green;
+        }
+.park3left{
+
+}
+      .park3right{
+        position: absolute;
+          top: 740px;
+          left: 280px;
+          transform: translate(-50%, -50%);
+          border-radius: 150px 150px 0 0;
+          width: 181px;
+          height: 100px;
+          transform: rotate(230deg);
+      }
+      .park3right:hover {
+            background-color: green;
+          }
+
+.middle {
+
+.park4top {
+  position: absolute;
+  left:705px;
+  top: 250px;
+width:77.55px;
+height:50px;
+transform: rotate(34.47deg);
+}
+.park4top:hover {
+      background-color: green;
+    }
+
+    .trapezoid-1 {
+      position: absolute;
+      top: 280px;
+      left: 652px;
+      border-top: 77.55px solid yellow;
+    border-left: 0px solid transparent;
+    border-right: 61.47px solid transparent;
+    height: 61.47px;
+    width: 18.55px;
+    transform: rotate(34.47deg);
+  }
+  .trapezoid-1:hover {
+        background-color: green;
+      }}
+
+
+
+
+    .park5{
+      position: absolute;
+      left: 1180.24px;
+      top: 355.51px;
+    width: 41.29px;
+    height:95px;
+    transform: rotate(-14.37deg);
+    }
+    .park5:hover {
+          background-color: green;
+        }
+
+
+    .park6{
+      position: absolute;
+      left: 1190.89px;
+      top: 675.72px;
+    width: 152px;
+    height:41px;
+    transform: skew(20deg);
+    transform: rotate(3deg);
+    }
+    .park6:hover {
+          background-color: green;
+        }
+
+
+  .park7{
+      position: absolute;
+      left: 1170px;
+      top: 0px;
+    width: 24px;
+    height:144px;
+    transform: rotate(23.94deg);
+    }
+    .park7:hover {
+          background-color: green;
+        }
