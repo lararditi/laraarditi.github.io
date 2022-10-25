@@ -1,36 +1,61 @@
-.container {
-  display: flex;
-  Padding:10px;
-  background-color: #042135;
-  min-height: 300px;
-  font-family: 'PT Mono', monospace;
-  color:  #042135;
-  font-size:  36px;
-  text-align:  center;
+body, html {
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+  font-family: "Libre Franklin", sans-serif;
+  color: green;
 }
+.parent {
+  position: absolute; top: 0; left: 0;
+display: flex;
+flex-flow: row wrap;
+width: 100vw;
+height: 200vh;
+grid-template-columns: repeat(7, 10fr);
+grid-template-rows: repeat(5, 10fr);
+grid-column-gap: 10px;
+grid-row-gap: 10px;
+color: green;
+background-color: lightgreen;
+justify-content: space-evenly;
+}
+
+.child{
+  width: 20vw;
+}
+
 
 /*This tells the browser to account for any border and padding in the values you specify for an element's width and height.*/
 * {box-sizing:  border-box;}
-.item {
-  margin: 10px 10px;
-  width: 300px;
-}
-.item1 {
-  background-color: #ff62f4;
-}
-.item2 {
-  background-color:  #00a4ff
-}
-.item3 {
-  background-color:  #af6801;
-}
-.item4 {
-  background-color:  #01ed6e;
-}
-.item5 {
-  background-color:  #fff93f;
-}
 
-.item6 {
-  background-color:  #ff4e00;
-}
+.water{
+  margin-right: 5px;
+display: flex;
+flex-direction: column;
+gap: 10px;
+width: 200px;
+height: 20vh;}
+
+  .wblock{
+    display: inline-block;
+    border-radius: 5px;
+    width: 10vh;
+    height: 2vh;
+    background-color: darkgreen;}
+
+
+.w1{display: inline-block;
+width: 10vh;
+height: 2vh;
+background-color: darkgreen;}
+
+.w2{display: inline-block;
+width: 10vh;
+height: 2vh;
+background-color: darkgreen;}
+
+.w3{display: inline-block;
+width: 10vh;
+height: 2vh;
+background-color: darkgreen;}
