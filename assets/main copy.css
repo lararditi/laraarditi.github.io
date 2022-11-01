@@ -1,0 +1,113 @@
+.index {
+  display: flex;
+  flex-flow: row wrap;
+  flex-direction: row;
+  position: absolute; top: 0; left: 0;
+    width: 50vw;
+    height: 200vh;
+    overflow: hidden auto;
+    border-radius: 1.5rem;
+    justify-content: center;
+
+}
+
+
+.l {
+    width: 100vw;
+}
+
+.container {
+    display: inline-block;
+flex-direction: row;
+    width: 38vw;
+    height: 72vh;
+padding: 20px;
+    overflow: hidden;
+    color: rgb(59, 233, 0);
+    background-color: lightgreen;
+    border-radius: 1.5rem;
+}
+
+.cell1-title {
+  display: inline-block;
+    height: 32vh;
+    width: 12vw;
+    background-color: green;
+    border-radius: 1.5rem;
+}
+
+
+.cell2-title {
+  display: inline-block;
+    height: 32vh;
+    width: 12vw;
+    top: 1.5rem;
+    left: 1.5rem;
+    background-color: green;
+    border-radius: 1.5rem;
+}
+
+.cell3-title {
+  display: inline-block;
+    height: 32vh;
+    width: 12vw;
+    top: 1.5rem;
+    left: 1.5rem;
+    background-color: green;
+    border-radius: 1.5rem;
+}
+
+.dot{
+  display: flex;
+  margin: 50px;
+align-items: center;
+    height: 5vh;
+    width: 5vw;
+    background-color: green;
+    border-radius: 50%;
+}
+
+.dot:hover {
+  background-color: white;
+}
+
+/* body {
+  background-color: lavender;
+font-family: "Libre Franklin", sans-serif;
+}
+
+h1 {
+   color: #0D0D0D;
+   color: black;
+}
+
+h1.entries {
+    font-variant: small-caps;
+  }
+
+
+  a:hover {
+    font-size:150%;
+  }
+
+a {
+  color:#0D0D0D;
+}
+
+.container {
+  height: 300px;
+  width: 300px;
+  background-color: green;
+}
+
+.container2 {
+  height: 300px;
+  width: 300px;
+  background-color: green;
+}
+
+.container3 {
+  height: 300px;
+  width: 300px;
+  background-color: green;
+} */
