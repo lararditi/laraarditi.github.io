@@ -1,0 +1,13 @@
+
+ .rect {
+  background-color: red;
+  border-radius: 5%;
+  height: 595px;
+  width: 595px;
+  transform: translateX(100px);
+  animation-name: rect infinite ease-in 1.5s
+}
+
+@keyframes rect {
+  transform: scale(1.0);}
+}
