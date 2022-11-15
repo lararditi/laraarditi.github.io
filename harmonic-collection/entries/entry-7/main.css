@@ -1,54 +1,191 @@
-.all{
-overflow: hidden;
-background-color: green;
+.container{
+  display: flex;
+  flex-direction: row;
+  position: absolute; top: 0; left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden auto;
+    display: grid;
+grid-template-columns: repeat(5, 1fr);
+grid-template-rows: repeat(5, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
 }
 
 .block-up-right{
-  position: absolute;
-  background-color: grey;
-  height: 50vh;
-  width: 10vw;
-  padding-top: 0px;
-  padding-left: 80vw;
+   grid-area: 1 / 4 / 2 / 6;
+height: 30vh;
+width: 50vw;
+background-color: grey;
+
 }
 
 .block-up-left{
-
+  grid-area: 1 / 1 / 4 / 3;
+  height: 60vh;
+  width: 30vw;
+  background-color: grey;
 }
 
-.block-bottom-left{
-
+.block-bottom-left {
+  grid-area: 5 / 1 / 6 / 3;
+  height: 20vh;
+  width: 30vw;
+  background-color: grey;
 }
 
-.stone-pine{
-  position: absolute;
-  height: 50vh;
-  padding-top: 20vh;
-  padding-left: 80vw;
-  overflow: scroll;
+.stone-pine {
+  grid-area: 3 / 4 / 6 / 6;
+  height: 60vh;
+  width: 50vw;
+  background-color: green;
 }
 
 .stone-pine iframe {
-  height: 50vh;
+  height: 60vh;
+  width: 50vw;
   overflow: scroll;
 }
 
-.oak{
+.stone-pine-up1 {
+  position: absolute;
+  left: 0vw;
+  top: 70vh;
+  z-index: 2;
 }
 
-.oak iframe {
+.stone-pine-up1 iframe {
+  height: 20vh;
+  width: 20vw;
+  border-radius: 50%;
+  overflow: scroll;
+}
+
+.stone-pine-up2 {
+  position: absolute;
+  left: 0vw;
+  top: 60vh;
+  z-index: 2;
+}
+
+.stone-pine-up2 iframe {
+  height: 20vh;
+  width: 20vw;
+  border-radius: 50%;
+  overflow: scroll;
+}
+
+
+.oak-right{position: absolute;
+  left: 25vw;
+  top: 55vh;
+  z-index: 2;
+}
+
+.oak-right iframe {
   height: 15vh;
   width: 15vw;
   overflow: scroll;
   border-radius: 50%;
 }
 
-.greengage{
-  height: 10vh;
-  width: 10vw;
+.oak-left {
+  position: absolute;
+  left: 5vw;
+  top: 55vh;
+  z-index: 2;
+}
+
+.oak-left iframe {
+  height: 15vh;
+  width: 15vw;
   overflow: scroll;
   border-radius: 50%;
 }
 
-.greengage iframe {
+
+.greengage-left1{
+  position: absolute;
+  left: 30vw;
+  top: 10vh;
+  z-index: 2;
+}
+
+.greengage-left1 iframe {
+  height: 5vh;
+  width: 5vw;
+  overflow: scroll;
+  border-radius: 50%;
+}
+
+.greengage-left2{
+  position: absolute;
+  left: 30vw;
+  top: 20vh;
+  z-index: 3;
+}
+
+.greengage-left2 iframe {
+  height: 5vh;
+  width: 5vw;
+  overflow: scroll;
+  border-radius: 50%;
+}
+
+.greengage-right{
+  position: absolute;
+  left: 50vw;
+  top: 15vh;
+  z-index: 3;
+}
+
+.greengage-right iframe {
+  height: 5vh;
+  width: 5vw;
+  overflow: scroll;
+  border-radius: 50%;
+}
+
+
+
+.greengage-bottom1{
+  position: absolute;
+  left: 15vw;
+  top: 65vh;
+  z-index: 3;
+}
+
+.greengage-bottom1 iframe {
+  height: 5vh;
+  width: 5vw;
+  overflow: scroll;
+  border-radius: 50%;
+}
+
+.greengage-bottom2{
+  position: absolute;
+  left: 20vw;
+  top: 60vh;
+  z-index: 3;
+}
+
+.greengage-bottom2 iframe {
+  height: 5vh;
+  width: 5vw;
+  overflow: scroll;
+  border-radius: 50%;
+}
+
+.greengage-bottom3{
+  position: absolute;
+  left: 25vw;
+  top: 70vh;
+  z-index: 3;
+}
+
+.greengage-bottom3 iframe {
+  height: 5vh;
+  width: 5vw;
+  overflow: scroll;
+  border-radius: 50%;
 }
