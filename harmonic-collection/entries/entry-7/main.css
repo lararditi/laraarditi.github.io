@@ -1,0 +1,54 @@
+.all{
+overflow: hidden;
+background-color: green;
+}
+
+.block-up-right{
+  position: absolute;
+  background-color: grey;
+  height: 50vh;
+  width: 10vw;
+  padding-top: 0px;
+  padding-left: 80vw;
+}
+
+.block-up-left{
+
+}
+
+.block-bottom-left{
+
+}
+
+.stone-pine{
+  position: absolute;
+  height: 50vh;
+  padding-top: 20vh;
+  padding-left: 80vw;
+  overflow: scroll;
+}
+
+.stone-pine iframe {
+  height: 50vh;
+  overflow: scroll;
+}
+
+.oak{
+}
+
+.oak iframe {
+  height: 15vh;
+  width: 15vw;
+  overflow: scroll;
+  border-radius: 50%;
+}
+
+.greengage{
+  height: 10vh;
+  width: 10vw;
+  overflow: scroll;
+  border-radius: 50%;
+}
+
+.greengage iframe {
+}

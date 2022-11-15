@@ -2,7 +2,7 @@
   display: flex;
   flex-flow: row nowrap;
   flex-direction: row;
-  position: absolute; top: 0; left: 0;
+  
     width: 100vw;
     height: 200vh;
     overflow: hidden auto;
@@ -19,7 +19,6 @@ flex-flow: row wrap;
     height: 160vh;
 padding: 20px;
     overflow: hidden;
-    color: rgb(59, 233, 0);
     background-color: lightgreen;
     border-radius: 1.5rem;
 }

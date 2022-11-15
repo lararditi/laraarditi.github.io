@@ -4,10 +4,13 @@
   border-radius: 5%;
   height: 595px;
   width: 595px;
-  transform: translateX(100px);
-  animation-name: rect infinite ease-in 1.5s
-}
+  animation: grow 3s ease infinite alternate;}
 
-@keyframes rect {
-  transform: scale(1.0);}
-}
+  @keyframes grow {
+      0% {
+          transform: scaleX(0.5);
+      }
+      100% {
+          transform: scaleY(2.0);
+      }
+  }
