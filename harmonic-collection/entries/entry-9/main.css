@@ -1,0 +1,70 @@
+
+
+body{
+  background-image: url("file:////Users/laraarditi/Desktop/folliage-entry-9.jpg");
+    background-repeat: no-repeat;
+    height: 100%;
+overflow: hidden;
+}
+
+.button {
+position: absolute;
+left: 70vw;
+top: 80vh;
+ font-size:15px;
+ width:80px;
+ height:80px;
+ border-width:1px;
+ color:#fff;
+ border-color:#18ab29;
+ font-weight:bold;
+ border-top-left-radius:42px;
+ border-top-right-radius:42px;
+ border-bottom-left-radius:42px;
+ border-bottom-right-radius:42px;
+ text-shadow: 1px 1px 0px #2f6627;
+ background:#44c767;
+}
+
+.button:hover {
+  background: #5cbf2a
+}
+
+.button2 {
+position: absolute;
+left: 20vw;
+top: 30vh;
+ font-size:15px;
+ width:200px;
+ height:200px;
+ border-width:1px;
+ color:#fff;
+ border-color:#18ab29;
+ font-weight:bold;
+border-radius: 50%;
+ text-shadow: 1px 1px 0px #2f6627;
+ background:#44c767;
+}
+
+.button3 {
+position: absolute;
+left: 50px;
+top: 40px;
+ font-size:15px;
+ width:80px;
+ height:80px;
+ border-width:1px;
+ color:#fff;
+ border-color:#18ab29;
+ font-weight:bold;
+ border-top-left-radius:42px;
+ border-top-right-radius:42px;
+ border-bottom-left-radius:42px;
+ border-bottom-right-radius:42px;
+ text-shadow: 1px 1px 0px #2f6627;
+ background:#44c767;
+}
+
+.button2:hover {
+  background: #5cbf2a
+}
